@@ -12,7 +12,8 @@ AdressID int PRIMARY KEY
 Street varchar(50) NOT NULL,
 HouseNumber int NOT NULL,
 ZIP varchar(10) NOT NULL,
-City varchar(20) NOT NULL
+City varchar(20) NOT NULL,
+Country varchar(20) NOT NULL
 );
 
 CREATE TABLE PersonAddress
